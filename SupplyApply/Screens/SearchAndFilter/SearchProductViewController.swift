@@ -8,6 +8,7 @@
 
 import UIKit
 import Nuke
+//import SwiftRangeSlider
 import DropDown
 
 class SearchProductViewController: CustomViewController {
@@ -325,7 +326,7 @@ class SearchProductViewController: CustomViewController {
 //            self.showAlertWithAction(title: "", message: "Max Price should be greter than minimum value") {
 //            }
 //        }
-//
+//        
 //        lblMaxPrice.text = "\(maxPrice)"
 //        lblMinPrice.text = "\(minPrice)"
 //    }

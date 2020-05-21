@@ -8,6 +8,7 @@
 
 import UIKit
 import Nuke
+//import SwiftRangeSlider
 import DropDown
 
 class SubCategoryController: CustomViewController {
@@ -467,7 +468,7 @@ class SubCategoryController: CustomViewController {
 //        lblMaxPrice.text = "\(maxPrice)"
 //        lblMinPrice.text = "\(minPrice)"
 //    }
-    
+//
     func setupBrandDropDown() {
         
         var stringArray = [String]()

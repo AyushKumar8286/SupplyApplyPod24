@@ -267,7 +267,7 @@
                                                             <color key="textColor" name="label"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvo-Tt-iSw" customClass="RangeSlider" customModule="SwiftRangeSlider">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvo-Tt-iSw">
                                                             <rect key="frame" x="55.5" y="14" width="299" height="30"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>

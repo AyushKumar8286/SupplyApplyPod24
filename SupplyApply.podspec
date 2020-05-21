@@ -35,7 +35,7 @@ s.dependency 'DropDown'
 s.dependency 'Stripe'
 
 # 8
-s.source_files = "SupplyApply/Data","SupplyApply/Data/**/*.{swift}","SupplyApply/Constants", "SupplyApply/Constants/**/*.{swift}", "SupplyApply/Helpers", "SupplyApply/Helpers/**/*.{swift}","SupplyApply/Model", "SupplyApply/Model/**/*.{swift}","SupplyApply/Routing", "SupplyApply/Routing/**/*.{swift}","SupplyApply/Screens" "SupplyApply/Screens/**/*.{swift,xib}", "SupplyApply/Fonts", "SupplyApply/Fonts/**/*.{swift}"
+s.source_files = "SupplyApply/**/*"
 
 
 #DropDown/src", "DropDown/src/**/*.{h,m}", "DropDown/helpers", "DropDown/helpers/**/*.{h,m}

@@ -35,7 +35,7 @@ s.dependency 'DropDown'
 s.dependency 'Stripe'
 
 # 8
-s.source_files = 'SupplyApply/Model/**/*.{swift}'
+s.source_files = 'SupplyApply/Model/**/*.{swift}', 'SupplyApply/Data/**/*.{swift}', 'SupplyApply/Model/APIClient/**/*.{swift}'
 
 #DropDown/src", "DropDown/src/**/*.{h,m}", "DropDown/helpers", "DropDown/helpers/**/*.{h,m}
 

@@ -20,7 +20,7 @@ s.author = { "ayushkumar8286" => "ayushkumar8286@gmail.com" }
 s.homepage = "https://github.com/AyushKumar8286"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/AyushKumar8286/SupplyApplyPod21.git",
+s.source = { :git => "https://github.com/AyushKumar8286/SupplyApplyPod24.git",
              :tag => "#{s.version}" }
 
 # 7
@@ -35,8 +35,7 @@ s.dependency 'DropDown'
 s.dependency 'Stripe'
 
 # 8
-s.source_files = "SupplyApply/**/*"
-
+s.source_files = 'SupplyApply/Classes/**/*'
 
 #DropDown/src", "DropDown/src/**/*.{h,m}", "DropDown/helpers", "DropDown/helpers/**/*.{h,m}
 
@@ -45,7 +44,6 @@ s.source_files = "SupplyApply/**/*"
 
 
 # 10
-# s.swift_version = "5"
 
 s.swift_versions = "5.0"
 

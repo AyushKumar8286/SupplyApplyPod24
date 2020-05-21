@@ -61,7 +61,7 @@ class SubCategoryController: CustomViewController {
     @IBOutlet weak var colorCollectionView: UICollectionView!
     @IBOutlet weak var lblMinPrice: UILabel!
     @IBOutlet weak var lblMaxPrice: UILabel!
-    @IBOutlet weak var viewRangeSlider: RangeSlider!
+//    @IBOutlet weak var viewRangeSlider: RangeSlider!
     @IBOutlet weak var viewBrandDropDown: UIView!
     @IBOutlet weak var lblBrand: UILabel!
     @IBOutlet weak var viewApplyFilter: UIView!
@@ -113,7 +113,7 @@ class SubCategoryController: CustomViewController {
         }
         
         viewFilter.isHidden = true
-        viewRangeSlider.addTarget(self, action: #selector(self.rangeSliderValueChanged(_:)), for: .valueChanged)
+//        viewRangeSlider.addTarget(self, action: #selector(self.rangeSliderValueChanged(_:)), for: .valueChanged)
         viewApplyFilter.clipsToBounds = true
         viewApplyFilter.layer.cornerRadius = viewApplyFilter.layer.bounds.height/2
         viewSortBackground.isHidden = true
@@ -447,26 +447,26 @@ class SubCategoryController: CustomViewController {
         
         let max =  roundValue(value: (Double(filterList?.filterData?[2].price?.maxprice ?? "0") ?? 0))
         let min =  roundValue(value: (Double(filterList?.filterData?[2].price?.minprice ?? "0") ?? 0))
-        viewRangeSlider.upperValue = max
-        viewRangeSlider.lowerValue = min
-        viewRangeSlider.maximumValue = max
-        viewRangeSlider.minimumValue = min
-        viewRangeSlider.minimumDistance = 0.5
+//        viewRangeSlider.upperValue = max
+//        viewRangeSlider.lowerValue = min
+//        viewRangeSlider.maximumValue = max
+//        viewRangeSlider.minimumValue = min
+//        viewRangeSlider.minimumDistance = 0.5
     }
     
-    @objc func rangeSliderValueChanged(_ rangeSlider: RangeSlider) {
-        print("Range slider value changed: (\(rangeSlider.lowerValue) , \(rangeSlider.upperValue))")
-        let maxPrice = roundValue(value: (Double(rangeSlider.upperValue)))
-        let minPrice = roundValue(value: (Double(rangeSlider.lowerValue)))
-        if (maxPrice - minPrice) ==  viewRangeSlider.minimumDistance {
-            self.showAlertWithAction(title: "", message: "Max Price should be greter than minimum value") {
-
-            }
-        }
-        
-        lblMaxPrice.text = "\(maxPrice)"
-        lblMinPrice.text = "\(minPrice)"
-    }
+//    @objc func rangeSliderValueChanged(_ rangeSlider: RangeSlider) {
+//        print("Range slider value changed: (\(rangeSlider.lowerValue) , \(rangeSlider.upperValue))")
+//        let maxPrice = roundValue(value: (Double(rangeSlider.upperValue)))
+//        let minPrice = roundValue(value: (Double(rangeSlider.lowerValue)))
+//        if (maxPrice - minPrice) ==  viewRangeSlider.minimumDistance {
+//            self.showAlertWithAction(title: "", message: "Max Price should be greter than minimum value") {
+//
+//            }
+//        }
+//
+//        lblMaxPrice.text = "\(maxPrice)"
+//        lblMinPrice.text = "\(minPrice)"
+//    }
     
     func setupBrandDropDown() {
         

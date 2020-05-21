@@ -8,7 +8,7 @@ def sharedPods
   pod 'Nuke'
   pod 'IQKeyboardManagerSwift'
   pod 'GoogleMaps'
-  pod 'DropDown', '2.3.2'
+  pod 'DropDown'
   pod ‘SwiftRangeSlider’
   pod 'Stripe'
   

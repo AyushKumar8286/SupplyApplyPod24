@@ -8,7 +8,6 @@
 
 import UIKit
 import Nuke
-import SwiftRangeSlider
 import DropDown
 
 class SubCategoryController: CustomViewController {

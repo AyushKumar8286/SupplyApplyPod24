@@ -143,6 +143,9 @@
 		8A8BE5FD246135B900C7FF80 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BE5FB246135B900C7FF80 /* SearchTableViewCell.swift */; };
 		8A8BE5FE246135B900C7FF80 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8BE5FC246135B900C7FF80 /* SearchTableViewCell.xib */; };
 		8A8E432F2476894E006AE2BD /* SupplyApply.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A8E432E2476894E006AE2BD /* SupplyApply.podspec */; };
+		8A8E433324769DC2006AE2BD /* RangeSliderKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E433124769DC1006AE2BD /* RangeSliderKnob.swift */; };
+		8A8E433424769DC2006AE2BD /* RangeSliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E433224769DC2006AE2BD /* RangeSliderTrack.swift */; };
+		8A8E433524769DC2006AE2BD /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E433024769DC1006AE2BD /* RangeSlider.swift */; };
 		8AA41C62245FDA8A009DA5E9 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA41C61245FDA8A009DA5E9 /* Toast.swift */; };
 		8AB97B0A2462F5CA007B7DBE /* AddressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB97B092462F5CA007B7DBE /* AddressData.swift */; };
 		8AB97B0C2462FE33007B7DBE /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB97B0B2462FE33007B7DBE /* CountryList.swift */; };
@@ -312,7 +315,10 @@
 		8A8BE5F724612E5D00C7FF80 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		8A8BE5FB246135B900C7FF80 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		8A8BE5FC246135B900C7FF80 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
-		8A8E432E2476894E006AE2BD /* SupplyApply.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = SupplyApply.podspec; sourceTree = SOURCE_ROOT; };
+		8A8E432E2476894E006AE2BD /* SupplyApply.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SupplyApply.podspec; sourceTree = SOURCE_ROOT; };
+		8A8E433024769DC1006AE2BD /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		8A8E433124769DC1006AE2BD /* RangeSliderKnob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderKnob.swift; sourceTree = "<group>"; };
+		8A8E433224769DC2006AE2BD /* RangeSliderTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderTrack.swift; sourceTree = "<group>"; };
 		8AA41C61245FDA8A009DA5E9 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		8AB97B092462F5CA007B7DBE /* AddressData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressData.swift; sourceTree = "<group>"; };
 		8AB97B0B2462FE33007B7DBE /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
@@ -603,6 +609,9 @@
 		28F1463C23FC0E520038CB37 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				8A8E433024769DC1006AE2BD /* RangeSlider.swift */,
+				8A8E433124769DC1006AE2BD /* RangeSliderKnob.swift */,
+				8A8E433224769DC2006AE2BD /* RangeSliderTrack.swift */,
 				8AA41C61245FDA8A009DA5E9 /* Toast.swift */,
 				28F1465823FC0E530038CB37 /* Extensions.swift */,
 				28F1463E23FC0E530038CB37 /* DateTimeHelper.swift */,
@@ -1153,6 +1162,7 @@
 				8A638E4B24705CFA0041FBE6 /* NoticationTableViewCell.swift in Sources */,
 				8A63EBBF246930B5007C1BAC /* SearchproductTableViewCell.swift in Sources */,
 				28AEA485242B42870024B67A /* Categories.swift in Sources */,
+				8A8E433424769DC2006AE2BD /* RangeSliderTrack.swift in Sources */,
 				8AF7D5DB2464238400E57823 /* PaymentMethodList.swift in Sources */,
 				8A27D3EE246A578100BAF7C7 /* FilterColorCollectionViewCell.swift in Sources */,
 				8A769E512459934F000EFCEF /* CartDetailTableViewCell.swift in Sources */,
@@ -1167,6 +1177,7 @@
 				28F1472A23FC0E550038CB37 /* SHLocationHelper.swift in Sources */,
 				8A803DDE247288C1007C9832 /* SelectPaymentTableViewCell.swift in Sources */,
 				28F1461E23FC0C8D0038CB37 /* AppDelegate.swift in Sources */,
+				8A8E433324769DC2006AE2BD /* RangeSliderKnob.swift in Sources */,
 				8A638E4624705BFC0041FBE6 /* NotificationViewController.swift in Sources */,
 				8A1B36E424584D29004F6CB1 /* MyOrderTableViewCell.swift in Sources */,
 				8A0B37C3245AF2F00068BDC6 /* DealList.swift in Sources */,
@@ -1189,6 +1200,7 @@
 				8A769E5924599382000EFCEF /* CartCheckoutTableViewCell.swift in Sources */,
 				8A31D2142462775700C487A2 /* AppTheme.swift in Sources */,
 				28F147B023FC0E560038CB37 /* ForgotPasswordViewController.swift in Sources */,
+				8A8E433524769DC2006AE2BD /* RangeSlider.swift in Sources */,
 				28F147BD23FC0E560038CB37 /* Repository.swift in Sources */,
 				8A31D2272462CF6800C487A2 /* AddAddressViewController.swift in Sources */,
 				8A638E42247058440041FBE6 /* DBManager.swift in Sources */,

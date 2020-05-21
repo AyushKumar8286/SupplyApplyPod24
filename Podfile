@@ -9,7 +9,7 @@ def sharedPods
   pod 'IQKeyboardManagerSwift'
   pod 'GoogleMaps'
   pod 'DropDown'
-  pod ‘SwiftRangeSlider’
+ # pod ‘SwiftRangeSlider’
   pod 'Stripe'
   
 end

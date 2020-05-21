@@ -20,7 +20,6 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
   - Stripe (19.2.0)
-  - SwiftRangeSlider (2.0.0)
 
 DEPENDENCIES:
   - Alamofire (= 5.0.0-beta.2)
@@ -31,7 +30,6 @@ DEPENDENCIES:
   - Nuke
   - NVActivityIndicatorView
   - Stripe
-  - SwiftRangeSlider
 
 SPEC REPOS:
   trunk:
@@ -43,7 +41,6 @@ SPEC REPOS:
     - Nuke
     - NVActivityIndicatorView
     - Stripe
-    - SwiftRangeSlider
 
 SPEC CHECKSUMS:
   Alamofire: d1e5493588babe3e7b56ae29e8032942f4de09fe
@@ -54,8 +51,7 @@ SPEC CHECKSUMS:
   Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   Stripe: d481c2dab9a892fd923f097f854661217f70dc7f
-  SwiftRangeSlider: f86e3b637c961120158fa1a89277c8343845cbe4
 
-PODFILE CHECKSUM: fddc4837209cfacfc516570d422374dbbc6b4bee
+PODFILE CHECKSUM: 504c94083d503726b1b5eeed9dbe89ca4145bf24
 
 COCOAPODS: 1.9.1

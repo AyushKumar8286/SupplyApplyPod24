@@ -142,6 +142,7 @@
 		8A8BE5F924612E5D00C7FF80 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8BE5F724612E5D00C7FF80 /* SearchViewController.xib */; };
 		8A8BE5FD246135B900C7FF80 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8BE5FB246135B900C7FF80 /* SearchTableViewCell.swift */; };
 		8A8BE5FE246135B900C7FF80 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8BE5FC246135B900C7FF80 /* SearchTableViewCell.xib */; };
+		8A8E432F2476894E006AE2BD /* SupplyApply.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A8E432E2476894E006AE2BD /* SupplyApply.podspec */; };
 		8AA41C62245FDA8A009DA5E9 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA41C61245FDA8A009DA5E9 /* Toast.swift */; };
 		8AB97B0A2462F5CA007B7DBE /* AddressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB97B092462F5CA007B7DBE /* AddressData.swift */; };
 		8AB97B0C2462FE33007B7DBE /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB97B0B2462FE33007B7DBE /* CountryList.swift */; };
@@ -311,6 +312,7 @@
 		8A8BE5F724612E5D00C7FF80 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		8A8BE5FB246135B900C7FF80 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		8A8BE5FC246135B900C7FF80 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		8A8E432E2476894E006AE2BD /* SupplyApply.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = SupplyApply.podspec; sourceTree = SOURCE_ROOT; };
 		8AA41C61245FDA8A009DA5E9 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		8AB97B092462F5CA007B7DBE /* AddressData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressData.swift; sourceTree = "<group>"; };
 		8AB97B0B2462FE33007B7DBE /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
@@ -571,6 +573,7 @@
 		28F1461C23FC0C8D0038CB37 /* SupplyApply */ = {
 			isa = PBXGroup;
 			children = (
+				8A8E432E2476894E006AE2BD /* SupplyApply.podspec */,
 				28FAB7B82428A8BC00271C43 /* Supply Apply.entitlements */,
 				28F1471023FC0E550038CB37 /* Data */,
 				28F1463123FC0E520038CB37 /* Constants */,
@@ -1065,6 +1068,7 @@
 				28F147B223FC0E560038CB37 /* LoginViewController.xib in Resources */,
 				8A3D2A182457113B00809400 /* FaqViewController.xib in Resources */,
 				28721A79241B6EDA00B65546 /* Raleway-SemiBold.ttf in Resources */,
+				8A8E432F2476894E006AE2BD /* SupplyApply.podspec in Resources */,
 				28721A80241B6EDA00B65546 /* Raleway-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
